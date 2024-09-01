@@ -1,1 +1,44 @@
-{"available_copies":5,"published_year":1932,"author":{"last_name":"Huxley","id":103,"first_name":"Aldous"},"genres":["Fiction","Dystopian"],"publisher":{"name":"Chatto & Windus","location":"London, UK","id":203},"id":3,"total_pages":268,"title":"Brave New World"}
+{
+  "library": {
+    "name": "Central Library",
+    "location": "123 Library St, Booktown",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": {
+          "id": 101,
+          "first_name": "F. Scott",
+          "last_name": "Fitzgerald"
+        },
+        "publisher": {
+          "id": 201,
+          "name": "Scribner",
+          "location": "New York, USA"
+        },
+        "genres": ["Fiction", "Classic"],
+        "published_year": 1925,
+        "available_copies": 3,
+        "total_pages": 180
+      },
+      {
+        "id": 2,
+        "title": "1984",
+        "author": {
+          "id": 102,
+          "first_name": "George",
+          "last_name": "Orwell"
+        },
+        "publisher": {
+          "id": 202,
+          "name": "Secker & Warburg",
+          "location": "London, UK"
+        },
+        "genres": ["Fiction", "Dystopian", "Political Fiction"],
+        "published_year": 1949,
+        "available_copies": 5,
+        "total_pages": 328
+      }
+    ]
+  }
+}
